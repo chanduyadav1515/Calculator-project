@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <div id="main">
+            <div id="heading">
+                <span class="headingcolor">CALCULATOR</span>
+            </div>
+            <div id="board">
+                <div id="whiteboard"></div>
+            </div>
+            <div id="box">
+                <table id="tablebox" border="1px" >
+                    <tr>
+                        <td data-value = "AC"><span>AC</span></td>
+                        <td data-value = "+/-"><span>+/-</span></td>
+                        <td data-value = "%"><span>%</span></td>
+                        <td class="maroon" data-value = "/"><span>/</span></td>
+                    </tr>
+                    <tr>
+                        <td data-value = "7"><span>7</span></td>
+                        <td data-value = "8"><span>8</span></td>
+                        <td data-value = "9"><span>9</span></td>
+                        <td class="maroon" data-value = "*"><span>*</span></td>
+                    </tr>
+                    <tr>
+                        <td data-value = "4"><span>4</span></td>
+                        <td data-value = "5"><span>5</span></td>
+                        <td data-value = "6"><span>6</span></td>
+                        <td class="maroon" data-value = "-"><span>-</span></td>
+                    </tr>
+                    <tr>
+                        <td data-value = "1"><span>1</span></td>
+                        <td data-value = "2"><span>2</span></td>
+                        <td data-value = "3"><span>3</span></td>
+                        <td class="maroon" data-value = "+"><span>+</span></td>
+                    </tr>
+                    <tr id="test">
+                        <td colspan="2" data-value = "0"><span>0</span></td>
+                        <td data-value = "."><span>.</span></td>
+                        <td class="maroon" data-value = "="><span>&nbsp;&nbsp;=</span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script type="text/javascript" src="calculator.js"></script>
+    </body>
+</html>

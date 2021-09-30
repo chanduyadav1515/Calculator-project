@@ -1,0 +1,70 @@
+/* ......................main................ */
+#main{
+    height: 500px;
+    width: 700px;
+    background-color: #e2e0e1;
+    margin: 10% 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+}
+/* ..............heading......... */
+#heading{
+    height: 8.5%;
+    width: 95%;
+    background-color: black;
+    margin:auto;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.headingcolor{
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+/* .............board............. */
+#board{
+    height: 16%;
+    width: 95%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#whiteboard{
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+/* ................box................ */
+#box{
+    height: 60%;
+    width: 95%;
+    background-color: white;
+    margin: auto;
+}
+table{
+    height: 100%;
+    width: 100%;
+    border: 2px solid white;
+    
+}
+tr{
+    font-size: 2rem;
+    border: 2px solid white;
+}
+.maroon{
+    background-color: #c04444;
+    color: white;
+}
+tr td span{
+    margin-left: 40%;
+}
+tr td:hover{
+    background-color:lightcoral;
+    border: 1px solid black;
+}
+.maroon:hover{
+    background-color:#c04444;
+}
